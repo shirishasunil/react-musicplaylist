@@ -1,0 +1,116 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.music-player-image-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 100px;
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.singer-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 52px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.profession {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 400;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.bottom-container {
+  background-color: #152850;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.songs-main-container {
+  display: flex;
+  flex-direction: column;
+  width: 92%;
+  align-items: center;
+}
+
+.playlist-and-search-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  width: 300px;
+  height: 35px;
+  background-color: transparent;
+}
+
+.input-box {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #ffffff;
+  background-color: transparent;
+  padding-left: 8px;
+}
+
+.search-icon {
+  color: #ffffff;
+  font-size: 20px;
+  margin-right: 15px;
+  margin-left: 8px;
+}
+
+.playlist-heading {
+  color: #ffffff;
+  font-size: 35px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.songs-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding-left: 0px;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.no-songs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.no-songs-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 55px;
+  font-weight: 500;
+}
